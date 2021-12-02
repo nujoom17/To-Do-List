@@ -2,11 +2,23 @@
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100vw;
+}
+
 main {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   height: 100%;
+  width: 100vw;
   background-image: linear-gradient(red, orange, yellow, green, blue);
 }
 
@@ -83,13 +95,13 @@ h2 {
 }
 
 footer {
-  position: relative;
-  margin-top: 10rem;
-  width: 100vw;
+  margin-top: auto;
   padding: 1rem;
   color: white;
-  text-align: center;
   background: black;
+  height: 100%;
+  text-align: center;
+  width: 100vw;
 }
 
 .table ul {
