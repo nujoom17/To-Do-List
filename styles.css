@@ -7,6 +7,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   height: 100%;
+  width: 100vw;
   background-image: linear-gradient(red, orange, yellow, green, blue);
 }
 
